@@ -1,0 +1,99 @@
+.converter-container {
+    color: #fff;
+    min-height: 100vh;
+    padding: 4px;
+    padding-top: 10px; /* account for navbar */
+    text-align: center;
+    background-image: url("../assets/currencybg2.jpg");
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: justify;
+    padding: 15px 40px;
+    background-color: #000000;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  .dropdowns {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  select {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: none;
+    width: 250px;
+  }
+  
+  .swap-btn,
+  .convert-btn {
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .swap-btn {
+    background-color: #222;
+    color: #f39c12;
+    border: 1px solid #f39c12;
+  }
+  
+  .convert-btn {
+    background-color: #f39c12;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  .convert-btn:disabled {
+    background-color: #666;
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  .loading {
+    margin-top: 20px;
+    color: #f1c40f;
+    font-style: italic;
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff203;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 15px;
+  }
+  .trend-graph {
+    margin-top: 10px;
+    width: 100px;
+    width: 30%;
+  }
+  
