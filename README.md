@@ -6,7 +6,7 @@
 ![GitHub forks](https://img.shields.io/github/forks/divyasrijampana23/Stock-Market-Analysis-and-Future-Prediction-system-?style=social)
 ![GitHub watchers](https://img.shields.io/github/watchers/divyasrijampana23/Stock-Market-Analysis-and-Future-Prediction-system-?style=social)
 
-# 📈 Stock Market Prediction Web App (Real-Time + ML)
+# 📈 Stock Market Prediction Web App (Real-Time + ML) 
 
 A **Stock Market Analysis and Prediction Web App** built using **FastAPI** and **React**. The platform fetches **real-time stock data**, performs **7-day price forecasting** using **ARIMA, LSTM, and Linear Regression**, and uses **real financial news sentiment analysis** to recommend BUY/SELL/HOLD actions. Admins can manage users and trigger emails. The system supports **NASDAQ and NSE** stocks.
 
